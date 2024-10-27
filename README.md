@@ -1,2 +1,0 @@
-# PackageAI-stable-diffusion
-一个基于stablediffusion的生成不同包装的web项目
