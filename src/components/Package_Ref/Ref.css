@@ -1,0 +1,125 @@
+  .Ref_container {
+    background-color: #f7f7f9;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 5px #0000001a;
+    width: 500px;
+    height: 816px;
+    flex-direction: column;
+    flex-shrink: 0;
+    position: relative;
+    display: flex;
+  }
+  .title_1 {
+    font-size: 15px;
+    font-family: PingFang SC;
+    line-height: 17px;
+    color: #000000;
+    margin-left: 20px;
+    line-height: 16.5px;
+    margin-top: 20px;
+    align-self: flex-start;
+  }
+  .tishiarea {
+    /*  */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 0px;
+    line-height: 16.5px;
+    margin-top: 20px;
+    padding: 0px 0px 20px 10px ;
+    margin: 10px 20px 0;
+    background-color: #f4f4f4;
+    border-radius: 10px;
+    height: 60px;
+    border-left: solid 1px #999999;
+    border-right: solid 1px #999999;
+    border-top: solid 1px #999999;
+    border-bottom: solid 1px #999999;
+  }
+  .group_upload {
+    margin-top: 10px;
+    padding: 0 20px;
+    flex-direction: row;
+    align-self: stretch;
+    display: flex;
+  }
+  .section_upload {
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+
+    padding: 28px 46px 28px 50px;
+    background-color: #f4f4f4;
+    border-radius: 10px;
+    height: 80px;
+    border-left: solid 1px #999999;
+    border-right: solid 1px #999999;
+    border-top: solid 1px #999999;
+    border-bottom: solid 1px #999999;
+  }
+  .tishifont {
+    font-size: 12px;
+    font-family: PingFang SC;
+    color: #999999;
+  }
+  .upload_font {
+    margin-left: 11px;
+    line-height: 11px;
+  }
+  .section_upload2 {
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+
+    padding: 28px 0;
+    background-color: #f4f4f4;
+    border-radius: 10px;
+    width: 226px;
+    height: 80px;
+    border-left: solid 1px #999999;
+    border-right: solid 1px #999999;
+    border-top: solid 1px #999999;
+    border-bottom: solid 1px #999999;
+  }
+  .image_link {
+    margin-left: 62px;
+  }
+  .pic_list {
+    flex-direction: column;
+    align-self: stretch;
+
+    margin-top: 10px;
+    padding: 0 0px;
+    overflow: hidden;
+    border-radius: 10px;
+    height: 518px;
+  }
+  .pic_image {
+    border-radius: 16px;
+    width: 135px;
+    height: 120px;
+  }
+  .tabel1 {
+    flex-direction: row;
+    margin-top: 8px;
+  }
+  .row1 {
+    flex-direction: column;
+    align-items: flex-start;
+    display: flex;
+  }
+  .row2 {
+    flex-direction: column;
+    align-items: flex-start;
+    display: flex;
+    margin-left: 24px;
+  }
+  .row_font {
+    margin-top: 8px;
+    font-size: 16px;
+    font-family: PingFang SC;
+    line-height: 15px;
+    color: #1d1b20;
+  }
+  

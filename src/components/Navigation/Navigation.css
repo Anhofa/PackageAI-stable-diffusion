@@ -1,0 +1,36 @@
+  .navigation_container {
+    padding: 44px 16px 360px;
+    background-color: #f7f7f9;
+    box-shadow: 0px 0px 10px 5px #0000001a;
+    overflow: hidden;
+    width: 90px;
+    height: 955.5px;
+    flex-direction: column;
+    flex-shrink: 0;
+    position: relative;
+    display: flex;
+}
+  .exit_icon {
+    margin: 0 4px;
+    width: 70px;
+    height: 48px;
+    flex-shrink: 0;
+  }
+  .navigation_image {
+    border-radius: 100px;
+    width: 56px;
+    height: 32px;
+  }
+  .navigation_front {
+    margin-top: 8px;
+    font-size: 16px;
+    font-family: PingFang SC;
+    line-height: 15px;
+    color: #000000;
+  }
+  .menu_list {
+    flex-direction: column;
+    margin-top: 48px;
+    display: flex;
+    align-items: center;
+  }
