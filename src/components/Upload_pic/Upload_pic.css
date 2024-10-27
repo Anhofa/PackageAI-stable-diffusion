@@ -1,0 +1,23 @@
+.section_upload {
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+
+    padding: 28px 46px 28px 50px;
+    background-color: #f4f4f4;
+    border-radius: 10px;
+    height: 80px;
+    border-left: solid 1px #999999;
+    border-right: solid 1px #999999;
+    border-top: solid 1px #999999;
+    border-bottom: solid 1px #999999;
+  }
+  .tishifont {
+    font-size: 12px;
+    font-family: PingFang SC;
+    color: #999999;
+  }
+  .upload_font {
+    margin-left: 11px;
+    line-height: 11px;
+  }

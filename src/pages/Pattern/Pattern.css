@@ -1,0 +1,24 @@
+  .ml-23 {
+    margin-left: 23px;
+  }
+   
+  .left_group {
+    display: flex;
+    flex-direction: column;
+    margin-left: 23px;
+    z-index: 1;
+    margin-right: 30px;
+  }
+  .logo_image {
+    position: relative;
+    align-self: flex-start;
+    z-index: 1;
+    width: 257px;
+    height: 100px;
+  }
+  .left_left_group {
+    display: flex;
+    flex-direction: row;
+    align-self: stretch;
+    padding-left: 20px;
+  }
