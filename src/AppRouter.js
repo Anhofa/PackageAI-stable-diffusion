@@ -5,12 +5,13 @@ import Editing from './pages/Editing/Editing';
 import Fabric from './pages/Fabric/Fabric';
 import Idea from './pages/Idea/Idea';
 import Pattern from './pages/Pattern/Pattern';
+import Login from './pages/Login/Login';
 
 const AppRouter = () => {
   return (
     <Router>
         <Routes>
-            <Route path="/" element={<Package />} />
+            <Route path="/" element={<Login />} />
             <Route path="/Package" element={<Package/>} />
             <Route path="/Editing" element={<Editing/>} />
             <Route path="/Fabric" element={<Fabric/>} />
