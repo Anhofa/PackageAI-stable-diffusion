@@ -7,13 +7,12 @@
     margin-left: 11px;
     line-height: 11px;
   }
-  .section_upload2 {
+  .upload_section_upload2 {
     margin-left: auto;
-    flex-direction: row;
+    flex-direction: column;
     display: flex;
     align-items: center;
 
-    padding: 28px 0;
     background-color: #f4f4f4;
     border-radius: 10px;
     width: 226px;
