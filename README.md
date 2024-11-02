@@ -1,7 +1,6 @@
-<<<<<<< HEAD
 # PackageAI-stable-diffusion
 一个基于stablediffusion的生成不同包装的web项目
-=======
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
