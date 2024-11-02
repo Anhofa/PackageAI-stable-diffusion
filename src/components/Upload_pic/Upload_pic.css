@@ -1,17 +1,14 @@
 .upload_section_upload {
-    flex-direction: column;
-    display: flex;
-    align-items:flex-start;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0 10px 10px;
+  background-color: #f4f4f4;
+  border: 1px solid #999999;
+  border-radius: 10px;
+  height: 80px;
+}
 
-    padding: 0px 10px 10px 10px;
-    background-color: #f4f4f4;
-    border-radius: 10px;
-    height: 80px;
-    border-left: solid 1px #999999;
-    border-right: solid 1px #999999;
-    border-top: solid 1px #999999;
-    border-bottom: solid 1px #999999;
-  }
   .upload_section_upload_box{
     margin-top: 10px;
     display: flex;

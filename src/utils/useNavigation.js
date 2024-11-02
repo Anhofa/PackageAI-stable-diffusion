@@ -24,6 +24,9 @@ export const useNavigation = () => {
             case 'Editing':
                 navigate('/Editing');
                 break;
+            case 'User':
+                navigate('/User');
+                break;
             default:
                 break;
         }

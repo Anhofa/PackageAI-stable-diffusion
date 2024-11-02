@@ -12,6 +12,8 @@ import mianliaoOffImage from '../../images/mianliao_off.png';
 import mianliaoOnImage from '../../images/mianliao_on.png';
 import bianjiOffImage from '../../images/bianji_off.png';
 import bianjiOnImage from '../../images/bianji_on.png';
+import userOnImage from '../../images/User_on.png';
+import userOffImage from '../../images/User_off.png';
 import { useNavigation } from '../../utils/useNavigation';
 
 
@@ -77,6 +79,9 @@ const Navigation = () => {
         case '/Editing':
             setActiveView('Editing');
             break;
+        case '/User':
+            setActiveView('User');
+            break;
         default:
             break;
     }
@@ -134,6 +139,14 @@ const Navigation = () => {
               src={activeView === 'Editing' ? bianjiOnImage : bianjiOffImage}
             />
             <span className="navigation_front">编辑AI</span>
+        </div>
+        <div className="menu_list"
+            onClick={() => handleImageClick('User')}>   
+            <img
+              className="navigation_image"
+              src={activeView === 'User' ? userOnImage : userOffImage}
+            />
+            <span className="navigation_front">个人</span>
         </div>
     </div>
   );

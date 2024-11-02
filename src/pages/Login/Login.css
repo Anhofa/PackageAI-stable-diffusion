@@ -3,7 +3,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: flex-start;
-    padding: 148px 0 416px;
+    padding: 150px 0 416px;
     background-image: linear-gradient(180deg, #e3eeff 0%, #f3e7e9 100%);
     width: 100%;
     overflow-y: auto;
@@ -28,7 +28,6 @@
     font-size: 16px;
     font-family: PingFang SC;
     line-height: 15px;
-    color: #000000;
   }
   .mt-20{
     margin-top: 20px;
@@ -39,18 +38,15 @@
     background-color: #f7f7f9;
     border-radius: 10px;
     height: 40px;
-    border-left: solid 1px #999999;
-    border-right: solid 1px #999999;
-    border-top: solid 1px #999999;
-    border-bottom: solid 1px #999999;
+    border: solid 1px #999999;
   }
   .login-buttons-section{
     display: flex;
     flex-direction: row;
     align-self: stretch;
     margin-top: 20px;
-    justify-content: space-between; /* 子元素两端对齐 */
-    align-items: center; /* 垂直居中对齐 */
+    justify-content: space-between; 
+    align-items: center; 
   }
   .Login-button1 {
     display: flex;
@@ -65,7 +61,7 @@
   .Login-button2 {
     display: flex;
     flex:1;
-    right: 0; 
+    /* right: 0;  */
     justify-content: center;
     align-items: center;
     margin-left: 10px;
@@ -90,7 +86,6 @@
     align-self: center;
     font-size: 16px;
     font-family: PingFang SC;
-    color: #000000;
     margin-top: 10px;
     color: #5c7eff;
     line-height: 15px;
