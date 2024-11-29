@@ -1,4 +1,5 @@
   .navigation_container {
+    margin-top:-10px;
     padding: 44px 16px 360px;
     background-color: #f7f7f9;
     box-shadow: 0px 0px 10px 5px #0000001a;
@@ -26,7 +27,6 @@
     font-size: 16px;
     font-family: PingFang SC;
     line-height: 15px;
-    color: #000000;
   }
   .menu_list {
     flex-direction: column;

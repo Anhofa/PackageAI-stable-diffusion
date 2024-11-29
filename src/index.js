@@ -3,6 +3,9 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import { Buffer } from 'buffer';
+window.Buffer = Buffer; // 将 Buffer 绑定到 window 对象
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
